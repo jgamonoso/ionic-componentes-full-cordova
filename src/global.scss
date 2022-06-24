@@ -24,3 +24,24 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.md .action-sheet-destructive,
+.action-sheet-destructive .sc-ion-action-sheet-md {
+    color:red !important;
+}
+
+.redColour, .redColour .sc-ion-action-sheet-md {
+  color: red !important;
+  .sc-ion-alert-md {
+    font-weight: bold;
+  }
+}
+
+ion-item {
+  --background: transparent;
+}
+
+ion-searchbar {
+  --box-shadow: none !important;
+}
